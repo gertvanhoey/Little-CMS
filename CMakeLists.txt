@@ -10,4 +10,6 @@ if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
   set(CMAKE_INSTALL_PREFIX "${CMAKE_SOURCE_DIR}/installed" CACHE PATH "..." FORCE)
 endif()
 
+add_definitions(-DCMS_DLL_BUILD)
+
 add_subdirectory(src)
