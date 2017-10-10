@@ -32,7 +32,7 @@ set(PUBLIC_INCLUDE_FILES
         ../include/lcms2_plugin.h
 )
 
-add_library(lcms2 SHARED ${SOURCE_FILES} ${PUBLIC_INCLUDE_FILES})
+add_library(lcms2 ${SOURCE_FILES} ${PUBLIC_INCLUDE_FILES})
 
 target_include_directories(lcms2 PUBLIC
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/../include>
