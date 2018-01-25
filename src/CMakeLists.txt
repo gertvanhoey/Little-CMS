@@ -59,7 +59,7 @@ install(FILES ${PUBLIC_INCLUDE_FILES}
 include(CMakePackageConfigHelpers)
 write_basic_package_version_file(
     "${CMAKE_CURRENT_BINARY_DIR}/lcms2/lcms2ConfigVersion.cmake"
-    VERSION 2.8
+    VERSION 2.9
     COMPATIBILITY AnyNewerVersion
 )
 
