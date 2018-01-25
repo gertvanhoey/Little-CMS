@@ -14,4 +14,6 @@ if (BUILD_SHARED_LIBS)
     add_definitions(-DCMS_DLL_BUILD)
 endif()
 
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
 add_subdirectory(src)
